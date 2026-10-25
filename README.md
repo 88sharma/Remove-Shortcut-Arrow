@@ -12,4 +12,15 @@ Most "remove shortcut arrow" guides point Shell Icons\29 at imageres.dll,-197 or
 3.Explorer restarts and the arrows are gone.
 
 Bring the arrows back:
-<details> <summary><code>remove_shortcut_arrow.bat restore</code></summary>
+<details> <summary><code>remove_shortcut_arrow.bat restore</code></summary
+
+## How it works
+
+| Step | Action |
+| --- | --- |
+| 1 | Re-launches itself as administrator |
+| 2 | Writes a transparent `blank.ico` to `C:\Windows\blank.ico` |
+| 3 | Sets `Shell Icons` value `29` (the shortcut-overlay icon) to that file |
+| 4 | Kills Explorer, deletes `IconCache*.db`, refreshes icons, restarts Explorer |
+| 5 | `restore` mode deletes the registry value and the icon file |
+
