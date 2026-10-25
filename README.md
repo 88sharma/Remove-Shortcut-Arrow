@@ -12,4 +12,4 @@ Most "remove shortcut arrow" guides point Shell Icons\29 at imageres.dll,-197 or
 3.Explorer restarts and the arrows are gone.
 
 Bring the arrows back:
-$ remove_shortcut_arrow.bat restore
+<details> <summary><code>remove_shortcut_arrow.bat restore</code></summary>
