@@ -14,7 +14,7 @@ Most "remove shortcut arrow" guides point Shell Icons\29 at imageres.dll,-197 or
 Bring the arrows back:
 <details> <summary><code>remove_shortcut_arrow.bat restore</code></summary
 
-## How it works
+## How it works 
 
 | Step | Action |
 | --- | --- |
